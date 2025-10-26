@@ -104,7 +104,7 @@ const Hero = () => {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 shadow-[0_0_20px_rgba(255,182,39,0.3)] hover:shadow-[0_0_30px_rgba(255,182,39,0.5)] transition-all"
             >
-              Get for Mac
+              Get for Windows
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
@@ -112,7 +112,7 @@ const Hero = () => {
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary/10 font-semibold text-lg px-8 py-6"
             >
-              Join Windows Waitlist
+              Coming Soon for Mac
             </Button>
           </div>
         </div>
