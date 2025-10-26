@@ -1,27 +1,40 @@
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
-import BuildFor from "@/components/BuildFor";
-import PilotFeatures from "@/components/PilotFeatures";
-import Security from "@/components/Security";
-import FAQ from "@/components/FAQ";
-import FinalCTA from "@/components/FinalCTA";
+import DynamicIslandHeader from "@/components/DynamicIslandHeader";
+import NewHero from "@/components/NewHero";
+import NewFeatures from "@/components/NewFeatures";
+import NewBuildFor from "@/components/NewBuildFor";
+import NewPilotFeatures from "@/components/NewPilotFeatures";
+import UseCases from "@/components/UseCases";
+import HowItWorks from "@/components/HowItWorks";
+import NewSecurity from "@/components/NewSecurity";
+import Pricing from "@/components/Pricing";
+import NewFAQ from "@/components/NewFAQ";
+import NewFinalCTA from "@/components/NewFinalCTA";
+import Footer from "@/components/Footer";
 import Divider from "@/components/Divider";
 
 const Index = () => {
   return (
     <main className="min-h-screen bg-background">
-      <Hero />
+      <DynamicIslandHeader />
+      <NewHero />
       <Divider />
-      <Features />
+      <NewFeatures />
       <Divider />
-      <BuildFor />
+      <NewBuildFor />
       <Divider />
-      <PilotFeatures />
+      <NewPilotFeatures />
       <Divider />
-      <Security />
+      <UseCases />
       <Divider />
-      <FAQ />
-      <FinalCTA />
+      <HowItWorks />
+      <Divider />
+      <NewSecurity />
+      <Divider />
+      <Pricing />
+      <Divider />
+      <NewFAQ />
+      <NewFinalCTA />
+      <Footer />
     </main>
   );
 };
