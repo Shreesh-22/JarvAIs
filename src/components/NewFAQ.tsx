@@ -38,8 +38,8 @@ const NewFAQ = () => {
     <section id="faq" className="relative py-24 px-4">
       <div className="container mx-auto max-w-3xl">
         <div className="text-center mb-16 animate-slide-up">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
-            Frequently asked questions
+          <h2 className="text-4xl md:text-5xl font-western text-primary drop-shadow-[4px_4px_0_hsl(38,30%,35%)] mb-4">
+            FAQs
           </h2>
           <p className="text-xl text-muted-foreground">
             Everything you need to know

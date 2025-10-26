@@ -26,7 +26,7 @@ const HowItWorks = () => {
     <section className="relative py-24 px-4 bg-gradient-to-b from-card to-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-slide-up">
-          <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-western text-primary drop-shadow-[4px_4px_0_hsl(38,30%,35%)] mb-4">
             How it works
           </h2>
           <p className="text-xl text-muted-foreground">

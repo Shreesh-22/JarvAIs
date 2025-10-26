@@ -1,11 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Zap } from "lucide-react";
+import desertDunes from "@/assets/desert-dunes.png";
+import newCactus from "@/assets/new-cactus.png";
+import newCow from "@/assets/new-cow.png";
+import newRock from "@/assets/new-rock.png";
+import jarvaiLogo from "@/assets/jarvai-3d-logo.png";
 
 const NewHero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden pt-20 md:pt-0">
       {/* Starfield Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-card">
+      <div className="absolute inset-0 bg-gradient-to-b from-[hsl(215,60%,12%)] to-[hsl(215,60%,8%)]">
         {/* Stars */}
         {[...Array(100)].map((_, i) => (
           <div
@@ -39,13 +44,51 @@ const NewHero = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5" />
       </div>
 
+      {/* Desert Landscape */}
+      <div className="absolute bottom-0 left-0 right-0 pointer-events-none z-[5]">
+        <img
+          src={desertDunes}
+          alt=""
+          className="w-full object-cover"
+          style={{ height: "35vh", minHeight: "250px" }}
+        />
+      </div>
+
+      {/* Decorative Elements */}
+      <img
+        src={newCactus}
+        alt=""
+        className="absolute bottom-[18%] left-[8%] w-16 md:w-24 animate-float pointer-events-none z-10"
+        style={{ animationDelay: "0s" }}
+      />
+      <img
+        src={newCow}
+        alt=""
+        className="absolute top-[15%] right-[8%] w-20 md:w-32 animate-float pointer-events-none z-10"
+        style={{ animationDelay: "1s" }}
+      />
+      <img
+        src={newRock}
+        alt=""
+        className="absolute bottom-[22%] right-[12%] w-12 md:w-20 opacity-90 pointer-events-none z-10"
+      />
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Content */}
           <div className="space-y-8 animate-slide-up">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-foreground leading-tight tracking-tight">
+            {/* Logo */}
+            <div className="mb-8">
+              <img
+                src={jarvaiLogo}
+                alt="JarvAI"
+                className="w-56 md:w-80 drop-shadow-[0_0_30px_rgba(255,182,39,0.4)]"
+              />
+            </div>
+
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-sans text-foreground leading-tight">
               Command your computer like a{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+              <span className="font-western text-primary drop-shadow-[3px_3px_0_hsl(38,30%,35%)]">
                 space cowboy
               </span>
             </h1>

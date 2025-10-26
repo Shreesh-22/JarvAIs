@@ -14,6 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
+        'western': ['Rye', 'serif'],
         'display': ['Space Grotesk', 'sans-serif'],
         'sans': ['Inter', 'sans-serif'],
       },

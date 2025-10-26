@@ -23,7 +23,7 @@ const NewFinalCTA = () => {
       </div>
 
       <div className="container mx-auto max-w-4xl relative z-10 text-center space-y-8 animate-slide-up">
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-foreground">
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-western text-primary drop-shadow-[4px_4px_0_hsl(38,30%,35%)]">
           Saddle up
         </h2>
 
